@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <div class="header__menu">
+        <p>Галавная</p>
+        <p>Слайдер</p>
+        <p>Карточки</p>
+        <p>Форма</p>
+        <p>Список</p>
+        <p>Модалка</p>
+        </div>
+    </div>
+    <div class="banner">
+        <div class="banner__info">
+        <p>Тестовое задание<br>АБВ! Студия</p>
+        <button>Модальное окно</button>
+        </div>
+    </div>
+    <div class="main">
+        <div class="main__slaider">
+            <h3>Слайдер</h3>
+            <section id="slider_bl">
+                <div class="wrapper">
+                  <input checked type=radio name="slider" id="slide1" />
+                  <input type=radio name="slider" id="slide2" />
+                  <input type=radio name="slider" id="slide3" />
+                  <div class="slider-wrapper">
+                    <div class=inner>
+                      <article>
+                        <img src="src/slaider.jpg" />
+                      </article>
+                      <article>
+                        <img src="src/city.jpg" />
+                      </article>
+                      <article>
+                        <img src="src/city2.jpg" />
+                      </article>
+                    </div>
+                  </div>
+                  <div class="slider-prev-next-control">
+                    <label for=slide1></label>
+                    <label for=slide2></label>
+                    <label for=slide3></label>
+                  </div>
+                  <div class="slider-dot-control">
+                    <label for=slide1></label>
+                    <label for=slide2></label>
+                    <label for=slide3></label>
+                  </div>
+                </div>
+            </section>
+        </div>
+        <div class="main__karti4ki">
+            <h3>Карточки</h3>
+                <div id="main__karti4ki__yslugi">
+                <div>
+                    <p>Услуга 1</p>
+                    <img src="src/maxresdefault 1.png"> 
+                    <button>Модальное окно</button>
+                </div>
+                <div>
+                    <p>Услуга 2</p>
+                    <img src="src/maxresdefault 1.png">
+                    <button>Модальное окно</button>
+                </div>
+                <div>
+                    <p>Услуга 3</p>
+                    <img src="src/maxresdefault 1.png">
+                    <button>Модальное окно</button>
+                </div> 
+                </div>
+            </div>
+            <div id="main__forma">
+                <h3>Форма</h3>
+                    <div class="main__forma-os">
+                        <p>Стандартная форма обратной связи</p>
+                        <form>
+                            <input name="name" class="txt" id="name" type="text" placeholder="Ваше имя"/>
+                            <input name="tel" class="txt" id="tel" type="tel" placeholder="Ваш номер"/>
+                            <input name="message" class="txtarea"  id="msg" cols="30" rows="10" placeholder="Сообщение"></textarea>
+                            <br>  <button>Отправить</button>
+                        </form>
+                    </div>
+            </div>
+            <div class="acor-container"> 
+                <h3>Список</h3>
+                <input type="radio" name="acor" id="acor1" checked="checked" />
+                <label for="acor1">Список 1</label>
+                <div class="acor-body">
+                    <p>Описание</p>
+                </div>
+                
+                <input type="radio" name="acor" id="acor2" />
+                <label for="acor2">Список 2</label>
+                <div class="acor-body">
+                    <p>Описание</p>
+                </div>
+                
+                <input type="radio" name="acor" id="acor3" />
+                <label for="acor3">Список 3</label>
+                <div class="acor-body">
+                    <p>Описание</p>
+                </div> 
+                
+            </div>
+    </div>
+</body>
+</html>
